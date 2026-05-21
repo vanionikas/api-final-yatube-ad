@@ -59,7 +59,6 @@ class Follow(models.Model):
     )
 
     class Meta:
-        # Уникальный констреинт на уровне БД, чтобы нельзя было подписаться дважды
         constraints = [
             models.UniqueConstraint(
                 fields=['user', 'following'],
