@@ -41,9 +41,9 @@ python3 manage.py migrate
 ```
 
 Запустить проект:
-
+```
 python3 manage.py runserver
-
+```
 
 ## Примеры запросов к API
 
